@@ -1,0 +1,328 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+ body,html{
+ 	width: 100%;
+ 	overflow-x: hidden;
+ 	font-family:"苹方" ;
+	
+}
+/* .beijing{
+	width: 7.20rem;
+	height: 13.08rem;
+	background: white;
+	box-shadow: 0 0 0.15rem 0 rgb(33, 35, 36);
+
+} */
+.Toptab{
+	width: 100%;
+	height: 1.43rem;
+	/* background: red; */
+	/* background: #45a76b; */
+	/* 固定定位：相对于窗口去定位 */
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* 层级定位中会遇到 */
+	z-index: 10;
+}
+.Toptab .left{
+	width: 2rem;
+	height: 2rem;
+	/* background: #000; */
+	margin-top: 0.13rem;
+	margin-left: 0.3rem;
+	float: left;
+}
+.Toptab .left img{
+	/* background: red; */
+	width: 1rem;
+	height: 1rem;
+	/* margin-top: 0.25rem; */
+	margin-right: 0.3rem;
+	/* text-align: center; */
+/* 	line-height: 0.35rem; */
+    padding-top: 0.3rem;
+	/* padding-left: 0.1rem; */
+	float: left;
+	margin: -0.25rem 0 auto -0.42rem;
+	
+}
+.Toptab .cotten{
+	width: 3rem;
+	height: 1rem;
+	/* background: #000; */
+	margin-top: 0.13rem;
+	margin-left: 0.3rem;
+	float: left;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.8rem;
+	margin: 0.29rem 0 auto 0;
+	color: #45a76b;
+}
+.Toptab .right{
+	width: 3rem;
+	height: 1rem;
+	/* background: #000; */
+	margin-top: 0.13rem;
+	margin-left: 0.3rem;
+	float: left;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.8rem;
+	margin: -0.71rem 0 auto 3.1rem;
+	color: #45a76b;
+}
+.box{
+	width: 6.14rem;
+	height: 7.65rem;
+	/* background: yellow; */
+	margin-left: 0.65rem;
+	background-image: url('../img/neirongkuang@2x.png');
+	margin-top: 2.3rem;
+	background-size: cover;
+}
+/* .box img{
+	width: 1.89rem;
+	height: 1.89rem; */
+	/* background: blue; */
+	/* margin-top: -0.5rem;
+	margin-left: 2.3rem;
+} */
+.box .kuang1{
+	width: 5.27rem;
+	height: 0.89rem;
+	background: #87d182;
+	border-radius: 0.1rem;
+	margin-top: 1.5rem;
+	margin-left: 0.42rem;
+	float: left;
+}
+.box .kuang1 .left img{
+	width: 0.42rem;
+	height: 0.48rem;
+	/* background: red; */
+	margin: 0.2rem 0  auto 0.21rem;
+	/* padding-top: 0.3rem; */
+	float: left;
+	
+}
+.box .kuang1 .yuano img{
+	width: 0.05rem;
+	height: 0.58rem;
+	/* background: red; */
+	margin: 0.18rem 0  auto 0.3rem;
+	/* padding-top: 0.3rem; */
+	float: left;	
+}
+.box .kuang1 .searchBox{
+	width: 3.4rem;
+	height: 0.7rem;
+	float: right;
+	background: #87d182;
+	color: white;
+	border: 0.02rem solid rgba(135, 209, 130, 0);
+	font-size: 0.3rem;
+	padding-left: 0.2rem;
+	margin-right: 0.5rem;
+	margin-top: 0.08rem;
+}
+/* .box .kuang1 .shuzi{
+	width: 3.46rem;
+	height: 0.37rem;
+	font-size: 0.3rem;
+	line-height: 0.9rem;
+	text-align: center;
+	color: #f4fbf3;
+	margin-left: 0.5rem;
+} */
+.box .kuang1 .right {
+	width: 0.29rem;
+	height: 0.29rem;
+	float: left;
+	background-image: url('../img/cuohao@2x (2).png');
+    margin-left: 4.8rem;
+    margin-top: -0.5rem;
+}
+.box .kuang2{
+	width: 5.27rem;
+	height: 0.89rem;
+	background: #fefefe;
+	border-radius: 0.1rem;
+	margin-top: 0.5rem;
+	margin-left: 0.42rem;
+    box-shadow: 0 0 0.05rem 0 rgb(198,168, 168);
+    float: left;
+}
+.box .kuang2 .left img{
+	width: 0.42rem;
+	height: 0.48rem;
+	/* background: red; */
+	margin: 0.2rem 0  auto 0.21rem;
+	/* padding-top: 0.3rem; */
+	float: left;
+	
+}
+.box .kuang2 .yuano img{
+	width: 0.05rem;
+	height: 0.58rem;
+	/* background: red; */
+	margin: 0.18rem 0  auto 0.3rem;
+	/* padding-top: 0.3rem; */
+	float: left;	
+}
+.box .kuang2 .searchBox{
+	width: 3.4rem;
+	height: 0.7rem;
+	float: right;
+	/* background: #87d182; */
+	color: #87d182;
+	border: 0.02rem solid rgba(135, 209, 130, 0);
+	font-size: 0.3rem;
+	padding-left: 0.2rem;
+	margin-right: 0.5rem;
+	margin-top: 0.08rem;
+}
+/* .box .kuang2 .shuzi{
+	width: 6.42rem;
+	height: 0.37rem;
+	font-size: 0.3rem;
+	line-height: 0.9rem;
+	text-align: center;
+	color: #52b34b;
+	margin-left: -2.5rem; */
+	/* letter-spacing: 0.05rem; */
+/* }
+ */.box .kuang3{
+	width: 5.27rem;
+	height: 0.89rem;
+	background: #fefefe;
+	border-radius: 0.1rem;
+	margin-top: 0.5rem;
+	margin-left: 0.42rem;
+    box-shadow: 0 0 0.05rem 0 rgb(198,168, 168);
+    float: left;
+}
+.box .kuang3 .left img{
+	width: 0.42rem;
+	height: 0.48rem;
+	/* background: red; */
+	margin: 0.2rem 0  auto 0.21rem;
+	/* padding-top: 0.3rem; */
+	float: left;
+	
+}
+.box .kuang3 .yuano img{
+	width: 0.05rem;
+	height: 0.58rem;
+	/* background: red; */
+	margin: 0.18rem 0  auto 0.3rem;
+	/* padding-top: 0.3rem; */
+	float: left;	
+}
+.box .kuang3 .searchBox{
+	width: 3.4rem;
+	height: 0.7rem;
+	float: right;
+	/* background: #87d182; */
+	color: #87d182;
+	border: 0.02rem solid rgba(135, 209, 130, 0);
+	font-size: 0.3rem;
+	padding-left: 0.2rem;
+	margin-right: 0.5rem;
+	margin-top: 0.08rem;
+}
+
+
+
+.box .xk{
+	width: 0.2rem;
+	height: 0.2rem;
+	border: 0.02rem solid #f8d817;
+	float: left;
+
+}
+.box .xk{
+	width: 0.2rem;
+	height: 0.2rem;
+	border: 0.02rem solid #6ab989;
+	float: left;
+	margin-top: 0.09rem;
+	margin-left: 0.4rem;
+	margin-right: 0.1rem;
+}
+.box .zc{
+	font-size: 0.2rem;
+	color: black;
+	float: left;
+	margin-top: 0.06rem;
+}
+.box .wj{
+	font-size: 0.2rem;
+	color: #6ab989;
+	margin-right: 0.5rem;
+	margin-top: 0.04rem;
+	float: right;
+}
+
+
+
+
+
+.box .anniud{
+	width: 5.13rem;
+	height: 0.88rem;
+	border-radius: 0.44rem;
+	background: #6ab989;
+	margin-left: 0.5rem;
+	margin-top: 0.85rem;
+	float: left;
+
+}
+.box .anniud .left{
+	width: 0.09rem;
+	height: 0.09rem;
+	background: white;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.4rem;
+	margin-left: 0.3rem;
+}
+.box .anniud .right{
+	width: 0.09rem;
+	height: 0.09rem;
+	background: white;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.4rem;
+	margin-left: 4.35rem;
+}
+.box .anniud .wenzi{
+	width: 2.57rem;
+	height: 0.43rem;
+	font-size: 0.35rem;
+	font-weight: bold;
+	margin-top: -0.4rem;
+	margin-left: 1.8rem;
+	color: white;
+	float: left;
+}
+.box .anniud .yingwen{
+	width: 2.57rem;
+	height: 0.43rem;
+	font-size: 0.3rem;
+	font-weight: bold;
+	margin-top: -0.1rem;
+	margin-left: 1.8rem;
+	color: white;
+	float: left;
+}
+
+
+

@@ -1,0 +1,170 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+ body,html{
+ 	width: 100%;
+ 	overflow-x: hidden;
+ 	font-family:"苹方" ;
+	
+}
+.Toptab{
+	width: 100%;
+	height: 1.43rem;
+	/* background: red; */
+	background: #45a76b;
+	/* 固定定位：相对于窗口去定位 */
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* 层级定位中会遇到 */
+	z-index: 10;
+}
+.Toptab .left{
+	width: 2rem;
+	height: 2rem;
+	/* background: #000; */
+	margin-top: 0.13rem;
+	margin-left: 0.3rem;
+	float: left;
+}
+.Toptab .left img{
+	/* background: red; */
+	width: 1rem;
+	height: 1rem;
+	/* margin-top: 0.25rem; */
+	margin-right: 0.3rem;
+	/* text-align: center; */
+/* 	line-height: 0.35rem; */
+    padding-top: 0.3rem;
+	/* padding-left: 0.1rem; */
+	float: left;
+	margin: -0.25rem 0 auto -0.42rem;
+	
+}
+.Toptab .cotten{
+	width: 3rem;
+	height: 1rem;
+	/* background: #000; */
+	margin-top: 0.13rem;
+	margin-left: 0.3rem;
+	float: left;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.8rem;
+	margin: 0.29rem 0 auto 0;
+	color: #fff;
+}
+.beijing{
+	width: 6.78rem;
+	height:9.7rem;
+	background: white;
+	box-shadow: 0 0 0.05rem 0 rgb(250, 248, 86);
+	margin-top: 2rem;
+	margin-left: 0.35rem;
+	border-radius: 0.05rem;
+}
+.beijing .box{
+	width: 6.78rem;
+	height: 1.34rem;
+	/* background: pink; */
+	margin-top: 0.1rem;
+	margin-left: 0rem;
+	border-radius: 0rem;
+	float: left;
+}
+.beijing .box .left{
+	width: 0.95rem;
+	height: 0.98rem;
+/* 	background: black; */
+	margin: -0.1518rem  0 auto 0.11rem;
+
+}
+.beijing .box .left img{
+	width: 1rem;
+	height: 1rem;
+}
+.beijing .box .cotten .shang{
+	width:2.37rem;
+	height: 0.37rem;
+	font-size: 0.4rem;
+	margin: -0.927rem 0 auto 1.22rem;
+	color: #46c592;
+}
+.beijing .box .cotten .xia {
+	width: 5.59rem;
+	height: 0.63rem;
+	/* background: black; */
+	margin: 0.133rem 0 auto 1.22rem;
+}
+.beijing .box .cotten .xia  .zuo1 img{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin: 0.133rem 0 auto 0.03rem;
+	margin-top: 0.1rem;
+	float: left;
+}
+.beijing .box .cotten .xia  .zuo2 img{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin: 0.133rem 0 auto 0rem;
+	margin-top: 0.02rem;
+	float: left;
+}
+.beijing .box .cotten .xia  .zuowenzi{
+	width:2.96rem;
+	height: 0.29rem;
+	font-size: 0.3rem;
+	margin: -0.267rem 0 auto 0.03rem;
+	color: #b3b3b3;
+	/* margin-top: 0.3rem; */
+	padding-top: 0.3rem;
+   /*  padding-right: 0.3rem; */
+   float: left;
+}
+
+.beijing .box .cotten .xia .zhong  .zuo2 img{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin: 0.133rem 0 auto -1.78rem;
+	margin-top: 0.02rem;
+	float: left;
+}
+.beijing .box .cotten .xia .zhong .zuowenzi{
+	width:2.96rem;
+	height: 0.29rem;
+	font-size: 0.3rem;
+	margin: -0.607rem 0 auto 00.03rem;
+	color: #b3b3b3;
+	/* margin-top: 0.3rem; */
+	padding-top: 0.3rem;
+   /*  padding-right: 0.3rem; */
+   float: left;
+}
+.beijing .box .right{
+	width: 1.40rem;
+	height: 0.43rem;
+	background: #45a76b;
+	border-radius: 0.04rem;
+	float: left;
+	margin: -0.427rem 0 auto 5.39rem;
+}
+.beijing .box .right .wenzi{
+	width: 1.91rem;
+	height: 0.28rem;
+	font-size: 0.3rem;
+	margin: -0.007rem 0 auto 0.11rem;
+	color: white;
+}
+.beijing .box .bottom img{
+	width:6.67rem;
+	height: 0.03rem;
+	margin:0.05rem 0.46rem auto 0.06rem;
+	float: left;
+	color: black;
+
+}

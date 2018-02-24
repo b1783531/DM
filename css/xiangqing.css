@@ -1,0 +1,182 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+ body,html{
+ 	width: 100%;
+ 	overflow-x: hidden;
+ 	font-family:"苹方" ;
+	
+}
+.Toptab{
+	width: 100%;
+	height: 0.88rem;
+	background: red;
+	background: #45a76b;
+	/* 固定定位：相对于窗口去定位 */
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* 层级定位中会遇到 */
+	z-index: 10;
+}
+.Toptab .left{
+	width: 2rem;
+	height: 2rem;
+	/* background: #000; */
+	margin-top: 0.13rem;
+	margin-left: 0.3rem;
+	float: left;
+}
+.Toptab .left img{
+	/* background: red; */
+	width: 1rem;
+	height: 1rem;
+	/* margin-top: 0.25rem; */
+	margin-right: 0.3rem;
+	/* text-align: center; */
+/* 	line-height: 0.35rem; */
+    padding-top: 0.3rem;
+	/* padding-left: 0.1rem; */
+	float: left;
+	margin: -0.47rem 0 auto -0.38rem;
+	
+}
+.Toptab .cotten{
+	width: 3rem;
+	height: 1rem;
+	/* background: #000; */
+	margin-top: 0.13rem;
+	margin-left: 0.3rem;
+	float: left;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.8rem;
+	margin: 0.06rem 0 auto 0;
+	color: #fff;
+}
+.biaoti{
+	width: 4.31rem;
+	height: 0.6rem;
+/* 	background: pink; */
+	margin: 1.3rem 0 auto 0.32rem;
+}
+.biaoti .juxing{
+	width: 0.04rem;
+	height: 0.6rem;
+	background: #45a76b;
+}
+.biaoti .shang{
+	width: 4.31rem;
+	height: 0.9rem; 
+	color: #45a76b;
+	font-size: 0.3rem;
+	font-weight: bold;
+	margin: -0.65rem 0 auto 0.09rem;
+}
+.biaoti .xia{
+	width: 4.31rem;
+	height: 0.9rem; 
+	color: #45a76b;
+	font-size: 0.2rem;
+	color: #b7b7b7;
+	margin: -0.5rem 0 auto 0.09rem;
+}
+.chatu{
+	width: 6.84rem;
+	height: 3.34rem;
+	background: blue;
+	margin: 0.3rem 0 auto 0.32rem;
+}
+.chatu img{
+	width: 7.2rem;
+	height: 3.8rem;
+/* 	background: blue; */
+	margin: -0.2rem 0 auto -0.19rem;
+}
+.shenghuo{
+	width: 3.57rem;
+	height: 0.57rem;
+	color: #45a76b;
+	font-size: 0.3rem;
+	margin-left: 0.3rem;
+	margin-top: 0.3rem;
+}
+.duanluo1{
+	width: 6.84rem;
+	height: 2.3rem;
+	/* background: pink; */
+	margin: 0 0 auto 0.32rem;
+}
+.duanluo1 p{
+	font-size: 0.3rem;
+	color: #a5a4a4;
+}
+.duanluo2{
+	width: 6.84rem;
+	height: 2.3rem;
+	/* background: pink; */
+	margin: 0 0 auto 0.32rem;
+}
+.duanluo2 p{
+	font-size: 0.3rem;
+	color: #a5a4a4;
+	margin-top: -0.2rem;
+}
+.box{
+	width:2.2rem;
+	height: 0.47rem;
+	background: #54a173;
+	margin-left: 5rem;
+
+}
+.box .wenzi{
+	width: 2rem;
+	height: 0.45rem;
+	color: white;
+	font-size: 0.3rem;
+	margin: 0.3rem 0 auto 0.25rem;
+}
+.box .hezi{
+	width: 0.7rem;
+	height: 0.05rem;
+	background:#45a76b; 
+	margin: -0.7rem 0 auto 1.5rem;
+}
+.biaoti2{
+	width: 4.31rem;
+	height: 0.6rem;
+/* 	background: pink; */
+	margin: 1.3rem 0 auto 0.32rem;
+}
+.biaoti2 .shang{
+	width: 4.31rem;
+	height: 0.9rem; 
+	color: #45a76b;
+	font-size: 0.35rem;
+	font-weight: bold;
+	margin: -0.9rem 0 auto -0.1rem;
+}
+.biaoti2 .xia{
+	width: 4.31rem;
+	height: 0.9rem; 
+	color: #45a76b;
+	font-size: 0.2rem;
+	margin: -0.5rem 0 auto -0.1rem;
+}
+.shange{
+	width:6.8rem;
+	height: 4.41rem;
+	/* background: pink; */
+	margin: 0.3rem 0 auto 0.34rem;
+}
+.shange img{
+	width:7.2rem;
+	height: 4.81rem;/* 
+	background: pink; */
+	margin:0rem 0 auto -0.25rem;
+}
